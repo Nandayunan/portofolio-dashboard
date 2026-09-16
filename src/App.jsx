@@ -166,7 +166,7 @@ const experience = [
   {
     period: 'Nov 2025 — Des 2025',
     role: 'Fullstack Developer (Internship)',
-    company: 'PT. Hoya Group - Cikarang',
+    company: 'PT. Detpak Indonesia - Cikarang',
     detail: 'Membangun Warehouse Management System dengan Laravel 12, Eloquent ORM, RBAC, audit trail, approval matrix, dan PDF reporting engine.',
   },
   {
