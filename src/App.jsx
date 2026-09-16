@@ -18,7 +18,9 @@ import {
   siSpringboot,
   siVuedotjs,
 } from 'simple-icons'
+import itenasLogo from './assets/ITENAS_logo.png'
 import profilePhoto from './assets/PAS FOTO NAND_LATar biru.jpeg'
+import smanLogo from './assets/SMAN_logo.png'
 
 const stats = [
   { value: '3+', label: 'Years Experience' },
@@ -69,7 +71,7 @@ const projects = [
     category: 'Enterprise Web App',
     filter: 'Web',
     summary:
-      'Platform Laravel untuk mengelola perubahan mesin, alokasi manpower, penjadwalan operasional, OTP, dan approval bertingkat.',
+        'A Laravel platform for managing machine changes, workforce allocation, operational scheduling, OTP authentication, and multi-level approvals.',
     tags: ['Laravel', 'MySQL', 'RBAC', 'OTP'],
     metric: 'Enterprise workflow',
   },
@@ -78,7 +80,7 @@ const projects = [
     category: 'Logistics System',
     filter: 'Web',
     summary:
-      'Sistem monitoring siklus inventori inbound, outbound, dan barang dalam proses dengan validasi multi-level dan database MySQL.',
+        'An inventory lifecycle monitoring system for inbound, outbound, and in-process goods with multi-level validation and a MySQL database.',
     tags: ['Laravel', 'Eloquent ORM', 'RBAC', 'MySQL'],
     metric: 'Real-time tracking',
   },
@@ -87,7 +89,7 @@ const projects = [
     category: 'AI Web Platform',
     filter: 'AI',
     summary:
-      'Aplikasi konsultasi UMKM dengan Next.js, Laravel REST API, PostgreSQL, AI summarization, dan predictive analytics.',
+        'An AI-powered business consulting application for MSMEs using Next.js, a Laravel REST API, PostgreSQL, summarization, and predictive analytics.',
     tags: ['Next.js', 'Laravel API', 'PostgreSQL', 'AI'],
     metric: 'Predictive analytics',
   },
@@ -96,7 +98,7 @@ const projects = [
     category: 'E-Learning Platform',
     filter: 'Web',
     summary:
-      'Platform tutoring on-demand dengan sistem bidding harga, OTP authentication, dan backend Laravel API yang scalable.',
+        'An on-demand tutoring platform with a flexible pricing and bidding workflow, OTP authentication, and a scalable Laravel API backend.',
     tags: ['Next.js', 'Laravel API', 'PostgreSQL', 'Bidding'],
     metric: 'On-demand learning',
   },
@@ -105,7 +107,7 @@ const projects = [
     category: 'Learning Management',
     filter: 'Web',
     summary:
-      'LMS berbasis Laravel 12 dan MySQL dengan modul berurutan, prerequisite workflow, tracking progres, dan penilaian otomatis.',
+        'A Laravel 12 and MySQL learning management system with sequential modules, prerequisite workflows, progress tracking, and automated assessment.',
     tags: ['Laravel 12', 'MySQL', 'LMS', 'Assessment'],
     metric: 'Progress tracking',
   },
@@ -114,7 +116,7 @@ const projects = [
     category: 'IoT System',
     filter: 'IoT & Mobile',
     summary:
-      'Sistem smart home berbasis ESP32, MQTT, sensor DHT22, relay, fingerprint, dan dashboard web untuk monitoring jarak jauh.',
+        'An ESP32-based smart home system using MQTT, DHT22 sensors, relays, fingerprint authentication, and a remote monitoring dashboard.',
     tags: ['ESP32', 'MQTT', 'IoT', 'Dashboard'],
     metric: 'Live telemetry',
   },
@@ -123,7 +125,7 @@ const projects = [
     category: 'Game Development',
     filter: 'Other',
     summary:
-      'Game balap Unity dengan physics kendaraan, state management, lingkungan 3D, dan integrasi Logitech Steering Wheel.',
+        'A Unity racing game with vehicle physics, state management, 3D environments, and Logitech Steering Wheel integration.',
     tags: ['Unity', 'C#', '3D', 'Hardware API'],
     metric: 'Interactive 3D',
   },
@@ -132,7 +134,7 @@ const projects = [
     category: 'B2B Platform',
     filter: 'Web',
     summary:
-      'Portal logistik B2B berbasis Next.js dan MySQL untuk tracking pengiriman serta pertukaran data aman antara tim dan klien.',
+        'A Next.js and MySQL B2B logistics portal for shipment tracking and secure data exchange between internal teams and clients.',
     tags: ['Next.js', 'MySQL', 'CSR', 'Multi-tenant'],
     metric: 'B2B logistics',
   },
@@ -141,7 +143,7 @@ const projects = [
     category: 'Mobile Application',
     filter: 'IoT & Mobile',
     summary:
-      'Aplikasi Flutter yang menghubungkan restoran dan petani melalui REST API, sinkronisasi order, inventori, dan Weather API.',
+        'A Flutter application connecting restaurants with local farmers through REST APIs, synchronized orders, inventory, and weather data.',
     tags: ['Flutter', 'Dart', 'MySQL', 'REST API'],
     metric: 'Supply chain',
   },
@@ -150,7 +152,7 @@ const projects = [
     category: 'Artificial Intelligence',
     filter: 'AI',
     summary:
-      'Model klasifikasi genre musik menggunakan CNN-14 dan PANNs dengan fokus pada robustness terhadap audio bising dan terdistorsi.',
+        'A music genre classification model using CNN-14 and PANNs, optimized for robustness against noisy and distorted audio.',
     tags: ['Python', 'Deep Learning', 'CNN-14', 'PANNs'],
     metric: 'Audio AI',
   },
@@ -161,43 +163,43 @@ const experience = [
     period: 'Feb 2026 — Jun 2026',
     role: 'Machine Learning Laboratory Assistant',
     company: 'Institut Teknologi Nasional (Itenas) - Bandung',
-    detail: 'Mengembangkan pipeline pembelajaran Machine Learning untuk pendidikan, membimbing implementasi Scikit-Learn, TensorFlow, dan PyTorch, serta membantu debugging dan tuning hyperparameter.',
+    detail: 'Developed educational Machine Learning pipelines, guided implementations using Scikit-Learn, TensorFlow, and PyTorch, and supported debugging and hyperparameter tuning.',
   },
   {
     period: 'Nov 2025 — Des 2025',
     role: 'Fullstack Developer (Internship)',
     company: 'PT. Detpak Indonesia - Cikarang',
-    detail: 'Membangun Warehouse Management System dengan Laravel 12, Eloquent ORM, RBAC, audit trail, approval matrix, dan PDF reporting engine.',
+     detail: 'Built a Warehouse Management System with Laravel 12, Eloquent ORM, RBAC, audit trails, approval matrices, and a PDF reporting engine.',
   },
   {
     period: 'Jun 2024 — Des 2024',
     role: 'Fullstack Web Developer (Internship)',
     company: 'PT Kayaba Indonesia (Astra Group) - Cikarang',
-    detail: 'Mengembangkan dashboard QA, sistem Henkaten, modul penjadwalan resource, QC tracking, approval workflow, serta otomatisasi dokumen PDF untuk kebutuhan enterprise.',
+     detail: 'Developed a QA dashboard, Henkaten system, resource scheduling modules, QC tracking, approval workflows, and automated PDF documents for enterprise operations.',
   },
   {
     period: 'Oct 2023',
     role: 'Front End Developer',
     company: 'TOP 4 Hackathon - Bandung',
-    detail: 'Mengerjakan UI/UX architecture, component-based design, wireframing, DOM manipulation, responsive web design, Git, dan rapid prototyping dalam tim lintas fungsi.',
+     detail: 'Delivered UI/UX architecture, component-based design, wireframing, DOM manipulation, responsive web design, Git workflows, and rapid prototyping within a cross-functional team.',
   },
   {
     period: 'Jan 2025 — Oct 2025',
     role: 'Head of Talent and Interest Division',
     company: 'Himpunan Mahasiswa Informatika Itenas - Bandung',
-    detail: 'Memimpin program pengembangan bakat, workshop, dan platform komunitas untuk mahasiswa Informatika.',
+     detail: 'Led talent development programs, workshops, and community platforms for Informatics students.',
   },
   {
     period: 'Jun 2025',
     role: 'Head of Event Division',
     company: 'Waktu Itenas Bersantai - Bandung',
-    detail: 'Memimpin perencanaan festival kampus, koordinasi lintas tim, rundown acara, vendor bazaar, dan pengelolaan anggaran proyek Rp100 juta.',
+     detail: 'Led campus festival planning, cross-functional coordination, event programming, vendor operations, and management of a 100 million IDR project budget.',
   },
   {
     period: 'Mar 2023',
     role: 'Head of Graduation Event Division',
     company: 'Himpunan Mahasiswa Informatika Itenas - Bandung',
-    detail: 'Mengelola konsep, operasional, dan koordinasi logistik acara wisuda departemen.',
+     detail: 'Managed the concept, operations, and logistics coordination for the department graduation event.',
   },
 ]
 
@@ -206,16 +208,30 @@ const credentials = [
     quote: 'Bachelor of Informatics Engineering, GPA 3.44.',
     name: 'Institut Teknologi Nasional (Itenas)',
     role: '2022 - 2026 | Bandung, Indonesia',
+    logo: itenasLogo,
+    logoAlt: 'Institut Teknologi Nasional logo',
   },
   {
     quote: 'Natural Science graduate with final grade 84.',
     name: 'SMAN 1 Cikarang Selatan',
     role: '2019 - 2022 | Cikarang, Indonesia',
+    logo: smanLogo,
+    logoAlt: 'SMAN 1 Cikarang Selatan logo',
   },
   {
     quote: 'Fundamentals of Deep Learning.',
     name: 'NVIDIA Certification',
     role: 'Certification',
+    description:
+      'Studied deep learning fundamentals, including neural networks, model training, computer vision, and modern AI development workflows.',
+    documentUrl: '/certificates/SERTIFIKASI_ASLAB_MACHINELEARNING.pdf',
+  },
+  {
+    quote: 'Machine Learning Laboratory Assistant.',
+    name: 'Asisten Laboratorium Machine Learning Itenas',
+    role: 'Certification',
+    description:
+      'Supported Machine Learning education by mentoring students in data preprocessing, model training, performance evaluation, and algorithm implementation.',
     documentUrl: '/certificates/nvidia-fundamentals-deep-learning.pdf',
   },
 ]
@@ -296,9 +312,9 @@ function App() {
               I build <span>reliable digital systems</span> for real-world problems.
             </h1>
             <p className="lead">
-              Lulusan Teknik Informatika Itenas dengan pengalaman membangun aplikasi web
-              responsif dan scalable menggunakan Laravel, Next.js, React, serta solusi AI.
-              Saya menerjemahkan kebutuhan bisnis menjadi software yang aman dan dapat diandalkan.
+              Informatics Engineering graduate from Itenas with experience building responsive
+              and scalable web applications using Laravel, Next.js, React, and AI solutions.
+              I translate business requirements into secure and reliable software.
             </p>
 
             <div className="cta-row">
@@ -331,7 +347,7 @@ function App() {
                 </div>
 
                 <div className="avatar-wrap">
-                  <img className="avatar" src={profilePhoto} alt="Foto profil Abdy Ananda Yunan" />
+                  <img className="avatar" src={profilePhoto} alt="Profile photo of Abdy Ananda Yunan" />
                 </div>
 
                 <div className="profile-info">
@@ -366,19 +382,19 @@ function App() {
         <section id="about" className="about section-spacing">
           <div className="section-heading">
             <p className="eyebrow">Profile</p>
-            <h2>Software engineer yang mengubah kebutuhan bisnis menjadi solusi digital.</h2>
+            <h2>A software engineer who turns business needs into reliable digital solutions.</h2>
           </div>
 
           <div className="about-grid">
             <div className="about-copy">
               <p>
-                Saya adalah lulusan Teknik Informatika dari Institut Teknologi Nasional Bandung
-                dengan pengalaman lebih dari tiga tahun di bidang web development dan software engineering.
+                I am an Informatics Engineering graduate from Institut Teknologi Nasional Bandung
+                with more than three years of experience in web development and software engineering.
               </p>
               <p>
-                Saya berpengalaman mengembangkan solusi digital enterprise di PT Kayaba Indonesia
-                (Astra Group), termasuk dashboard monitoring otomatis, sistem laboratorium terintegrasi,
-                dan platform manajemen resource terpusat.
+                I have developed enterprise digital solutions at PT Kayaba Indonesia
+                (Astra Group), including automated monitoring dashboards, integrated laboratory systems,
+                and centralized resource management platforms.
               </p>
             </div>
 
@@ -397,7 +413,7 @@ function App() {
         <section className="skills section-spacing">
           <div className="section-heading narrow">
             <p className="eyebrow">Technical Skills</p>
-            <h2>Teknologi yang saya gunakan untuk membangun software yang kuat.</h2>
+            <h2>The technologies I use to build robust software.</h2>
           </div>
 
           <div className="chip-grid">
@@ -413,7 +429,7 @@ function App() {
         <section id="work" className="projects section-spacing">
           <div className="section-heading">
             <p className="eyebrow">Selected Projects</p>
-            <h2>Proyek yang menunjukkan pengalaman saya dalam web, mobile, IoT, game, dan AI.</h2>
+            <h2>Projects showcasing my experience across web, mobile, IoT, game development, and AI.</h2>
           </div>
 
           <div className="project-filters" aria-label="Filter projects">
@@ -468,7 +484,7 @@ function App() {
         <section id="experience" className="timeline section-spacing">
           <div className="section-heading narrow">
             <p className="eyebrow">Experience</p>
-            <h2>Pengalaman profesional, organisasi, dan kontribusi teknis saya.</h2>
+            <h2>My professional experience, leadership, and technical contributions.</h2>
           </div>
 
           <div className="timeline-list">
@@ -488,10 +504,10 @@ function App() {
         <section className="testimonials section-spacing">
           <div className="section-heading narrow">
             <p className="eyebrow">Education & Certification</p>
-            <h2>Fondasi akademik dan sertifikasi yang mendukung perjalanan teknis saya.</h2>
+            <h2>The academic foundation and certifications behind my technical journey.</h2>
           </div>
 
-          <div className="testimonial-grid">
+          <div className="testimonial-grid credentials-grid">
             {credentials.map((item) => (
               item.documentUrl ? (
                 <a
@@ -503,6 +519,7 @@ function App() {
                 >
                   <span className="credential-action">Open certificate ↗</span>
                   <p>“{item.quote}”</p>
+                  <p className="credential-description">{item.description}</p>
                   <footer>
                     <strong>{item.name}</strong>
                     <span>{item.role}</span>
@@ -510,6 +527,11 @@ function App() {
                 </a>
               ) : (
                 <blockquote className="testimonial-card glass-card" key={item.name}>
+                  {item.logo && (
+                    <div className="education-logo-wrap">
+                      <img className="education-logo" src={item.logo} alt={item.logoAlt} />
+                    </div>
+                  )}
                   <p>“{item.quote}”</p>
                   <footer>
                     <strong>{item.name}</strong>
@@ -526,7 +548,7 @@ function App() {
         <div className="footer-card glass-card">
           <div>
             <p className="eyebrow">Let&apos;s connect</p>
-            <h2>Terbuka untuk peluang Software Engineer, Web Developer, AI Engineer, dan Fullstack Developer.</h2>
+            <h2>Open to opportunities as a Software Engineer, Web Developer, AI Engineer, or Fullstack Developer.</h2>
           </div>
 
           <div className="contact-actions">
