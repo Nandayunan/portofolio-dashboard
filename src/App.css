@@ -533,20 +533,61 @@
   letter-spacing: -0.03em;
 }
 
-.skill-mark.coral { background: #ff806d; }
-.skill-mark.slate { background: #d9e0eb; }
-.skill-mark.lime { background: #a8e063; }
-.skill-mark.blue { background: #72a9ff; }
-.skill-mark.orange { background: #f5a45b; }
-.skill-mark.green { background: #83d69c; }
-.skill-mark.mint { background: #71e0bc; }
-.skill-mark.cyan { background: #73d9ed; }
-.skill-mark.sky { background: #8bbdff; }
-.skill-mark.violet { background: #a9a6e8; }
-.skill-mark.indigo { background: #91a4e8; }
-.skill-mark.dark { background: #c8d0dc; }
-.skill-mark.amber { background: #f4c56c; }
-.skill-mark.red { background: #f28c8c; }
+.skill-mark.coral {
+  background: #ff806d;
+}
+
+.skill-mark.slate {
+  background: #d9e0eb;
+}
+
+.skill-mark.lime {
+  background: #a8e063;
+}
+
+.skill-mark.blue {
+  background: #72a9ff;
+}
+
+.skill-mark.orange {
+  background: #f5a45b;
+}
+
+.skill-mark.green {
+  background: #83d69c;
+}
+
+.skill-mark.mint {
+  background: #71e0bc;
+}
+
+.skill-mark.cyan {
+  background: #73d9ed;
+}
+
+.skill-mark.sky {
+  background: #8bbdff;
+}
+
+.skill-mark.violet {
+  background: #a9a6e8;
+}
+
+.skill-mark.indigo {
+  background: #91a4e8;
+}
+
+.skill-mark.dark {
+  background: #c8d0dc;
+}
+
+.skill-mark.amber {
+  background: #f4c56c;
+}
+
+.skill-mark.red {
+  background: #f28c8c;
+}
 
 .skill-logos {
   display: inline-flex;
@@ -562,7 +603,7 @@
   fill: currentColor;
 }
 
-.skill-logos svg + svg {
+.skill-logos svg+svg {
   width: 18px;
   height: 18px;
 }
